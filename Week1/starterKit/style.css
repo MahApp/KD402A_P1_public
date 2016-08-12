@@ -1,0 +1,10 @@
+p{
+  color:blue;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em;
+}
