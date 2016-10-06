@@ -1,6 +1,9 @@
 console.log('Script running');
+console.log(5*2 < 10);
+console.log("This is a text in \"JavaScript\" it is called a string");
+console.log(3 === "hej");
 // Call 'onDocumentReady' when page is loaded
-//This so we don't run code untill everything is loaded.
+//This so we don't run code untill everything is loaded.//
 if (document.readyState != 'loading'){
   onDocumentReady();
 } else {

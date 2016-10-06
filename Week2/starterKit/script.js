@@ -1,29 +1,4 @@
-// Call 'onDocumentReady' when page is loaded
+/*This is a multiline comment in JavaScript
+comments are used to describe why you do things*/
+//This is a single line comment
 console.log('Script running');
-if (document.readyState != 'loading'){
-  onDocumentReady();
-} else {
-  document.addEventListener('DOMContentLoaded', onDocumentReady);
-}
-
-// Page is loaded! Now events can be wired-up
-function onDocumentReady() {
-  //Start of function onDocumentReady above
-  console.log('Document ready.');
-  //Here add all things you want to happen when the page is loaded like listening for keypress
-  //Get a handle to the button
-  var el = document.getElementById('button1');
-  // Listen to any click that happens on button1
-  el.addEventListener('click', onButtonClicked);
-  //Bellow is the ending Måsvinge for the onDocumentReady function
-}
-
-// Called according to 'click' event
-function onButtonClicked(e) {
-  console.log('onButtonClicked.');
-  // Get a reference to the element we want to manipulate
-  // Here, we're using the id 'text1' to find the right place.
-  var text = document.getElementById('text1');
-  console.log(text);
-  text.innerHTML = "New text";
-}
