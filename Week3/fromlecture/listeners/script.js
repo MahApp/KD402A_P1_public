@@ -38,9 +38,13 @@ function openClose(){
 function keyPressedFunction(e){
   console.log("keypressed: "+e.key);
   console.log("keypressed: "+e.code);
+  var element = document.getElementById('inputOne')
+  var answer = element.value;
   if(e.code==="Enter"){
     console.log("Enter pressed");
-    //Hämta rätt element och byt css-class till röd på den.
-
+    //Get e element and check its value
+    //var element = document.getElementById('inputOne')
+    //var answer = element.value;
+    //Hämta rätt element och byt css-class till röd på den om svaret är rätt annars grönt.
   }
 }
