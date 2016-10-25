@@ -1,0 +1,39 @@
+/*This is a CSS comment here // doesn't work for comments*/
+body{
+  background-color: FloralWhite ;
+  color: DarkOrange;
+  font-size: 2em;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.ball{
+  background-color:red;
+  width:30px;
+  height:30px;
+  position: fixed;
+  border-radius: 50%;
+  top:200px;
+  left:200px;
+}
+
+.white{
+  background-color: white;
+  width:100px;
+  height:100px;
+  float:left;
+}
+
+.ball3{
+  width: 10px;
+  height:10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.black{
+  background-color: black;
+  width:100px;
+  height:100px;
+  float:left;
+}
