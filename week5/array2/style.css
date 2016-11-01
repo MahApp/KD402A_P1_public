@@ -1,0 +1,22 @@
+body{
+  background-color:#DCDCDC;
+}
+.warning {
+  background-color: yellow;
+}
+.error {
+  background-color: red;
+}
+.info {
+  background-color: blue;
+}
+
+.reactorStatus{
+  border-radius: 50%;
+  width:1em;
+  height:1em;
+  margin:1em;
+}
+.reactor{
+  display:flex;
+}

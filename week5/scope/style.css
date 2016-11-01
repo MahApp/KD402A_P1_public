@@ -1,0 +1,12 @@
+/*This is a CSS comment here // doesn't work for comments*/
+.redClass{
+  background-color: red;
+}
+
+.blueClass{
+  background-color: blue;
+}
+
+.greenClass{
+  background-color: green;
+}

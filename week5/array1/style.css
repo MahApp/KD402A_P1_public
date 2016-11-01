@@ -1,0 +1,15 @@
+/*This is a CSS comment here // doesn't work for comments*/
+body{
+  background-color:#DCDCDC;
+}
+.error {
+  background-color: red;
+}
+
+.warning {
+  background-color: yellow;
+}
+
+.info {
+  background-color: blue;
+}
