@@ -1,0 +1,21 @@
+/*This is a CSS comment here // doesn't work for comments*/
+body{
+  background-color: FloralWhite ;
+}
+
+.personStyle{
+  position:absolute;
+  left:100px;
+  top:400px;
+  width: 200px;
+  height:200px;
+  background-image: url("images/person0.jpeg");
+  background-color: red;
+  border-radius: 4px;
+}
+
+p{
+  font-family: 'Ranga', cursive;
+  color:black;
+  font-size: 5rem;
+}
