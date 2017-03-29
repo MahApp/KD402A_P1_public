@@ -22,5 +22,5 @@ function onDocumentReady() {
 // Called according to 'click' event
 function onButtonClicked(e) {
   console.log('onButtonClicked.');
-  window.open("other.html")
+  window.open("other.html","_self");
 }
